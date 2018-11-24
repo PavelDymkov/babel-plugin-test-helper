@@ -1,0 +1,15 @@
+{
+  "name": "babel-plugin-test-helper",
+  "version": "1.0.0",
+  "description": "Helper for transform plugins test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pavel Dymkov <dymkov86@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.6"
+  }
+}
