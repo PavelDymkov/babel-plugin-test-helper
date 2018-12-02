@@ -1,10 +1,10 @@
 var babel = require("@babel/core");
 var spaces = /\s+/g;
 
-module.exports = function createFor(plugin, defaultOptions) {
+module.exports = function createFor(target, defaultOptions, type = "plugin") {
     return function isEqual(input, expected, options) {
         var babelOptions = {
-            plugins: [[plugin, options || defaultOptions || {}]],
+            [`${type}s`]: [[target, options || defaultOptions || {}]],
         };
         var output = babel.transform(input, babelOptions).code;
 
