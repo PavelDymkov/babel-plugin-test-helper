@@ -10,6 +10,6 @@
   "author": "Pavel Dymkov <dymkov86@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.1.6"
+    "@babel/core": "^7.3.3"
   }
 }
